@@ -10,7 +10,7 @@ class Triangle
   def kind 
     triangle 
     if a == b && b == c 
-      :euqilateral 
+      :equilateral 
     elsif a == b || b == c || c == a 
       :isosceles
     else 
