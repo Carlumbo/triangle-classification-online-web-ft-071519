@@ -27,6 +27,7 @@ class Triangle
        real_triangle = false 
        raise TriangleError if real_triangle = false
      end 
+   end 
      
      class TriangleError < StandardError 
      end 
